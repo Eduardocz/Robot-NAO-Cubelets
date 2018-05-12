@@ -1,0 +1,32 @@
+***INSTRUCCIÓNES PARA EL USO DEL MODULO***
+
+
+	El modulo consiste en un script escrito en python en lo cual el robot NAO expone en voz y movimientos la plataforma Cubelets, 
+    donde muestra en pantalla imágenes con información de ello.
+	Para el uso de este modulo es necesario tener instalado python en su versión 2.7.
+
+
+INSTALACIÓN DE PYTHON 2.7
+	Descargar python 2.7 y instalar.
+	puedes descargar el programa desde el siguiente enlace : http://python.org/download/
+
+INSTALACIÓN DE NAOQI PARA PYTHON 
+	Puedes descargar NAOqi desde la pagina oficial de aldebaran robotics, para lo cual deberás registrarte. 
+    Sigue el siguiente enlace para poder realizar este paso: http://doc.aldebaran.com/21/dev/community_software.html#retrieving-software
+
+RECURSOS NECESARIOS PARA ESTE MODULO.
+	*Robot NAO
+	*Computadora funcional
+	*Pantalla o proyector con conexión HDMI o VGA donde se pueda conectar a la pc, es necesaria para mostrar las imágenes al publico. 
+	*Mesa o un lugar estable donde estará ubicado el robot NAO.
+    *Conector a electricidad para poder conectar al robot en caso de tener batería baja.
+	*Punto de acceso WI-FI
+
+¿COMO EJECUTAR EL SCRIPT?
+	Para abrir el script es necesario abrir la Idle de python desde la carpeta del Naoqi en caso de ser necesario.
+	Se puede abrir normalmente desde el Idle de python si la de la instalación de Naoqi fue correcta.
+	*Antes de ejecutar el script es necesario cambiar la IP del robot y el Puerto del robot lo cual se encuentra comentada en el código.
+	*El módulo inicia abriendo las imágenes y el robot empieza a explicar las imagenes. 
+    *En caso de detener la rutina puedes cerrar el script directamente desde la idle de pyhton. Puedes apoyarte con el software de Choregraphe
+	para mayor control del robot.
+
